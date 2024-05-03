@@ -1,0 +1,49 @@
+/* Styling for individual news items */
+.post-item {
+    margin-bottom: 15px;
+    overflow: hidden; /* Hide overflowing content */
+}
+
+/* Styling for news image */
+.post-item img {
+    max-width: 70px; /* Maximum width of the image */
+    max-height: 60px; /* Maximum height of the image */
+    width: auto;
+    height: auto;
+    float: left;
+    border-radius: 5px;
+    margin-right: 15px; /* Added margin for better spacing */
+}
+
+/* Styling for news title */
+.post-item h4 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 0; /* Reset top margin */
+    overflow: hidden; /* Hide overflowing text */
+}
+
+/* Styling for news title link */
+.post-item h4 a {
+    color: #012970; /* Title link ka default color */
+    transition: 0.3s;
+    text-decoration: none; /* Remove underline */
+}
+
+/* Hover effect for news title link */
+.post-item h4 a:hover {
+    color: #4154f1; /* Title link ka hover color */
+}
+
+/* Active effect for news title link */
+.post-item h4 a:active {
+    color: #ff0000; /* Title link ka active color */
+}
+
+/* Clearfix for floating elements */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}

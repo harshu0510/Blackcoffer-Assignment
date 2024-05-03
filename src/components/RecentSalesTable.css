@@ -1,0 +1,77 @@
+/* RecentSalesTable.css */
+
+/* Table Styling */
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    background-color: transparent;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody+tbody {
+    border-top: 2px solid #dee2e6;
+}
+
+/* Table Status Colors */
+.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.warning {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Anchor Styling */
+.table a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.text-primary {
+    color: #007bff;
+}
+
+/* Badge Styling */
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
+
+/* Badge Background Colors */
+.badge-bg-success {
+    background-color: #28a745;
+}
+
+.badge-bg-warning {
+    background-color: #ffc107;
+}
+
+.badge-bg-danger {
+    background-color: #dc3545;
+}

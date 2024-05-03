@@ -1,0 +1,25 @@
+/*-------- 
+logo
+--------*/
+
+.logo{
+    line-height: 1;
+}
+
+@media (min-width:1000px) {
+    .logo{
+        width: 280px;
+    }
+}
+
+.logo img{
+    max-height: 26px;
+    margin-right: 6px;
+}
+
+.logo span{
+    font-size: 26px;
+    font-weight: 700px;
+    color: #012970;
+    font-family: cursive;
+}

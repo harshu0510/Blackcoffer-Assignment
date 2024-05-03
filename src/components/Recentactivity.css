@@ -1,0 +1,35 @@
+.activity{
+    font-size: 14px;
+}
+
+.activity .activity-item .activity-lable{
+    color: #888;
+    position: relative;
+    flex-shrink: 0;
+    flex-grow: 0;
+    min-width: 64px;
+    
+}
+
+
+.activity .activity-item .activity-lable::before {
+    content: '';
+    position: absolute;
+    right: -11px;
+    width: 4px;
+    top: 0;
+    bottom: 0;
+    background-color: #eceefe;
+}
+
+.activity .activity-item .activity-badge{
+    margin-top: 3px;
+    z-index: 1;
+    font-size: 11px;
+    line-height: 0;
+    border-radius: 50%;
+    flex-shrink: 0;
+    border: 3px solid #fff;
+    flex-grow: 0;
+}
+
